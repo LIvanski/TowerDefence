@@ -62,7 +62,7 @@ public class WaveSpawner : MonoBehaviour
 
     private void SpawnMob()
     {
-        Vector3 spawnSpot = new Vector3(-35, 2, -57);
+        Vector3 spawnSpot = new Vector3(-70, 2, -65);
         Transform newMob = Instantiate(enemyPrefab, spawnSpot, Quaternion.Euler(enemyPrefab.eulerAngles));
         enemys.Add(newMob);
     }
