@@ -1,8 +1,7 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class WaveSpawner : MonoBehaviour
 {
@@ -10,7 +9,7 @@ public class WaveSpawner : MonoBehaviour
     public float timeBetweenWawes = 10f;   
     public float timeBetweenSpawns = .5f;
     public int maxEnemyCount = 5;
-    public TextMeshProUGUI countDownText;
+    public Text countDownText;
     private float countdown = 5f;
     private int enemyCount = 0;  
     public static List<Transform> enemys = new List<Transform>();
